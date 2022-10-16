@@ -1,0 +1,49 @@
+{
+  "name": "supastarter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "generate:types": "npx ts-node --project ./scripts/tsconfig.json ./scripts/generate-supabase-types.ts",
+    "i18n:upload": "localazy upload",
+    "i18n:download": "localazy download"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.3.5",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@localazy/cli": "^1.6.3",
+    "@supabase/auth-helpers-nextjs": "^0.2.5",
+    "@supabase/auth-helpers-react": "^0.2.3",
+    "@supabase/supabase-js": "^1.35.6",
+    "@tanstack/react-query": "^4.2.3",
+    "color2k": "^2.0.0",
+    "framer-motion": "^7.5.2",
+    "gray-matter": "^4.0.3",
+    "image-size": "^1.0.2",
+    "next": "^12.1.6",
+    "next-i18next": "^12.0.1",
+    "next-mdx-remote": "^4.1.0",
+    "nextjs-progressbar": "^0.0.14",
+    "prismjs": "^1.29.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.34.2",
+    "react-icons": "^4.4.0",
+    "rehype-img-size": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.8.2",
+    "@types/prismjs": "^1.26.0",
+    "@types/react": "^18.0.18",
+    "dotenv": "^16.0.2",
+    "eslint": "8.23.0",
+    "eslint-config-next": "12.2.4",
+    "eslint-config-prettier": "^8.5.0",
+    "openapi-typescript": "^5.4.1",
+    "typescript": "^4.8.4"
+  }
+}

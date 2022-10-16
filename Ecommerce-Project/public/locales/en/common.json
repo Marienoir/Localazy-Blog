@@ -1,0 +1,14 @@
+{
+  "colorMode": {
+    "dark": "Dark",
+    "light": "Light"
+  },
+  "language": "Language",
+  "footer": {
+    "allRightsReserved": "All rights reserved."
+  },
+  "menu": {
+    "catalogue": "Catalogue",
+    "blog": "Blog"
+  }
+}

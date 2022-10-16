@@ -1,0 +1,35 @@
+
+{
+  "hero": {
+    "title": "Welcome to SupaCommerce",
+    "description": "Shop whatever you like with us. We ensure shopping for gadgets an awesome experience."
+  },
+  "items": {
+    "title": "Catalogue",
+    "description": "Check out our latest product catalogue!",
+    "laptop": {
+      "title": "Laptops",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quo ducimus nemo quis possimus."
+    },
+    "phones": {
+      "title": "Phones",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quo ducimus nemo quis possimus."
+    },
+    "headphones": {
+      "title": "Headphones",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quo ducimus nemo quis possimus."
+    },
+    "airpods": {
+      "title": "Airpods",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quo ducimus nemo quis possimus."
+    },
+    "smartWatch": {
+      "title": "Smart Wristwatch",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quo ducimus nemo quis possimus."
+    },
+    "smartTv": {
+      "title": "Smart TVs",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quo ducimus nemo quis possimus."
+    }
+  }
+}

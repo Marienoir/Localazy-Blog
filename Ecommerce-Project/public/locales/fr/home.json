@@ -1,0 +1,34 @@
+{
+  "hero": {
+    "description": "Achetez ce que vous voulez avec nous. Nous garantissons que l'achat de gadgets est une expérience incroyable.",
+    "title": "Bienvenue chez SupaCommerce"
+  },
+  "items": {
+    "airpods": {
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quo ducimus nemo quis possimus.",
+      "title": "AirPods"
+    },
+    "description": "Consultez notre dernier catalogue de produits !",
+    "headphones": {
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quo ducimus nemo quis possimus.",
+      "title": "Écouteurs"
+    },
+    "laptop": {
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quo ducimus nemo quis possimus.",
+      "title": "ordinateurs portables"
+    },
+    "phones": {
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quo ducimus nemo quis possimus.",
+      "title": "Téléphones"
+    },
+    "smartTv": {
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quo ducimus nemo quis possimus.",
+      "title": "Téléviseurs intelligents"
+    },
+    "smartWatch": {
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quo ducimus nemo quis possimus.",
+      "title": "Montre-bracelet intelligente"
+    },
+    "title": "Catalogue"
+  }
+}

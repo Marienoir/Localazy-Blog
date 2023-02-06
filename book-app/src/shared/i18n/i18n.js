@@ -19,13 +19,13 @@ i18n
     .init({
         fallbackLng: 'en',
         debug: true,
-        supportedLngs: ['en', 'de'],
+        supportedLngs: ['en', 'fr', 'es', 'cs'],
 
         interpolation: {
             escapeValue: false // not needed for react as it escapes by default
         },
         react: {
-            useSuspense: false //   <---- this will do the magic
+            useSuspense: true //   <---- this will do the magic
         }
     });
 

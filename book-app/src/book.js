@@ -4,14 +4,17 @@ import { useTranslation } from "react-i18next";
 
 const Book = () => {
   const { t } = useTranslation();
+  const { i18n } = useTranslation();
+  const handleLanguageChange = (e) => {
+    i18n.changeLanguage(e.target.value);
+  };
+
   return (
     <div>
       <div className="nav-bar">
         <h1>Reading List</h1>
-        <select>
-          <option selected value="en">
-            English (en)
-          </option>
+        <select onChange={handleLanguageChange}>
+          <option value="en">English (en)</option>
           <option value="es">Spanish (es)</option>
           <option value="cs">Czech (cs)</option>
           <option value="fr">French (fr)</option>

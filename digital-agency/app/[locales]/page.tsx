@@ -77,28 +77,6 @@ function Home() {
           <p>{t("innovativeDescription")}</p>
         </div>
       </div>
-      <div className="max-w-xl mx-auto  mt-10 mb-2 text-center">
-        <p>DIGITAL SOLUTIONS</p>
-        <p className="text-4xl my-5">Request More Information</p>
-        <p>
-          Let's embark on a journey of efficiency, growth, and digital
-          excellence together. Your vision, our expertise – unlocking
-          possibilities in the digital realm. Explore, evolve, elevate with
-          Digital Solutions.
-        </p>
-
-        <button className="my-8 p-3 bg-red-600 px-4">Contact Us</button>
-
-        <div className="my-6">
-          <ul className="items-center justify-between font-mono text-sm lg:flex">
-            <li className="px-5">Home</li>
-            <li className="px-5">Services</li>
-            <li className="px-5">Portfolio</li>
-            <li className="px-5">About</li>
-            <li className="px-5">Contact</li>
-          </ul>
-        </div>
-      </div>
     </main>
   );
 }

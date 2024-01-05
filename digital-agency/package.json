@@ -6,12 +6,16 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "upload": "localazy upload",
+    "download": "localazy download"
   },
   "dependencies": {
+    "next": "14.0.4",
+    "next-i18next": "^15.1.1",
+    "next-intl": "^3.4.0",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.0.4"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "typescript": "^5",
